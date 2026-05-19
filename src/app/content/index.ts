@@ -1,0 +1,14 @@
+export { homeContent } from './home';
+export { vendaiContent } from './vendai';
+export { inventoryContent } from './inventory';
+export { contactContent } from './contact';
+export { thermalControlContent } from './thermal-control';
+export { railwayTrackingContent } from './railway-tracking';
+export { customCvContent } from './custom-cv';
+export { electromechanicalContent } from './electromechanical';
+export { smartScalesContent } from './smart-scales';
+export { trafficContent } from './traffic';
+export { sizContent } from './siz';
+export { shelvesContent } from './shelves';
+export { smartEyeVectorContent } from './smart-eye-vector';
+export type { PageContent, HomePageContent, ContactContent } from './types';
