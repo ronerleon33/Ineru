@@ -1,3 +1,4 @@
+import image_1280_720_max from '@/imports/1280-720-max.jpg'
 import { ShoppingCart, CheckCircle2, Zap, TrendingUp, Shield } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { SEO } from "../components/SEO";
@@ -74,7 +75,7 @@ export function SmartScales() {
             <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-orange-500 rounded-[2.5rem] blur-3xl opacity-20"></div>
             <div className="relative bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?w=600&h=400&fit=crop"
+                src={image_1280_720_max}
                 alt="Умные весы в действии"
                 className="w-full h-80 object-cover rounded-3xl"
               />

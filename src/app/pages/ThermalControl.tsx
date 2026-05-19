@@ -1,3 +1,4 @@
+import image_2023_12_01_07_20_1 from '@/imports/2023-12-01_07-20_1.png'
 import { Scan, Shield, Brain, Video, Database, Layers, Gauge, AlertCircle, LineChart, ShieldCheck } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { SEO } from "../components/SEO";
@@ -121,7 +122,7 @@ export function ThermalControl() {
             <div className="absolute inset-0 bg-gradient-to-br from-orange-400 to-orange-400 rounded-[2.5rem] blur-3xl opacity-20"></div>
             <div className="relative bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&h=400&fit=crop"
+                src={image_2023_12_01_07_20_1}
                 alt="Тепловизионный контроль"
                 className="w-full h-80 object-cover rounded-3xl"
               />

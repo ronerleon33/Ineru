@@ -1,3 +1,4 @@
+import image_photo_2023_02_05_18_42_12__3_ from '@/imports/photo_2023-02-05_18-42-12__3_.jpg'
 import { Eye, Microscope, LineChart, Leaf, CheckCircle2, Zap } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { SEO } from "../components/SEO";
@@ -74,7 +75,7 @@ export function SmartEyeVector() {
             <div className="absolute inset-0 bg-gradient-to-br from-orange-400 to-orange-400 rounded-[2.5rem] blur-3xl opacity-20"></div>
             <div className="relative bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=600&h=400&fit=crop"
+                src={image_photo_2023_02_05_18_42_12__3_}
                 alt="Smart Eye Vector"
                 className="w-full h-80 object-cover rounded-3xl"
               />

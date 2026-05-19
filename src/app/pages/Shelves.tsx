@@ -1,3 +1,4 @@
+import image_PXL_20220311_145119100 from '@/imports/PXL_20220311_145119100.jpg'
 import { Box, Scale, Layers, Zap, BarChart, CheckCircle2 } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { SEO } from "../components/SEO";
@@ -74,7 +75,7 @@ export function Shelves() {
             <div className="absolute inset-0 bg-gradient-to-br from-orange-400 to-orange-400 rounded-[2.5rem] blur-3xl opacity-20"></div>
             <div className="relative bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=600&h=400&fit=crop"
+                src={image_PXL_20220311_145119100}
                 alt="Весовая платформа"
                 className="w-full h-80 object-cover rounded-3xl"
               />

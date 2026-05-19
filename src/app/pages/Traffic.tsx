@@ -1,3 +1,4 @@
+import image_photo_2017_11_26_21_15_05 from '@/imports/photo_2017-11-26_21-15-05.jpg'
 import { Users, TrendingUp, MapPin, PieChart, Calendar, Target } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { SEO } from "../components/SEO";
@@ -74,7 +75,7 @@ export function Traffic() {
             <div className="absolute inset-0 bg-gradient-to-br from-orange-400 to-pink-400 rounded-[2.5rem] blur-3xl opacity-20"></div>
             <div className="relative bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600&h=400&fit=crop"
+                src={image_photo_2017_11_26_21_15_05}
                 alt="Анализ трафика посетителей"
                 className="w-full h-80 object-cover rounded-3xl"
               />

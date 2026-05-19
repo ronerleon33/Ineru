@@ -1,3 +1,5 @@
+import image_image43 from '@/imports/image43.png'
+import image_shot0006 from '@/imports/shot0006.png'
 import { HardHat, Eye, AlertTriangle, BarChart3, Clock, Shield } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { SEO } from "../components/SEO";
@@ -76,7 +78,7 @@ export function SIZ() {
             <div className="absolute inset-0 bg-gradient-to-br from-orange-400 to-orange-400 rounded-[2.5rem] blur-3xl opacity-20"></div>
             <div className="relative bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&h=400&fit=crop"
+                src={image_image43}
                 alt="Контроль СИЗ"
                 className="w-full h-80 object-cover rounded-3xl"
               />
